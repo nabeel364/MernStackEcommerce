@@ -1,11 +1,11 @@
 import React, { Fragment, useState } from "react";
 import "./Shipping.css";
-import PinDropIcon from "@mui/icons-material/PinDrop";
-import HomeIcon from "@mui/icons-material/Home";
-import LocationCityIcon from "@mui/icons-material/LocationCity";
-import PublicIcon from "@mui/icons-material/Public";
-import PhoneIcon from "@mui/icons-material/Phone";
-import TransferWithinAStationIcon from "@mui/icons-material/TransferWithinAStation";
+import PinDropIcon from "@material-ui/icons/PinDrop";
+import HomeIcon from "@material-ui/icons/Home";
+import LocationCityIcon from "@material-ui/icons/LocationCity";
+import PublicIcon from "@material-ui/icons/Public";
+import PhoneIcon from "@material-ui/icons/Phone";
+import TransferWithinAStationIcon from "@material-ui/icons/TransferWithinAStation";
 import { Country, State } from "country-state-city";
 import { useDispatch, useSelector } from "react-redux";
 import { useAlert } from "react-alert";

@@ -7,9 +7,9 @@ import { useAlert } from "react-alert";
 import { UPDATE_PASSWORD_RESET } from "../../constants/userConstant";
 import MetaData from "../layout/MetaData";
 import Loader from "../layout/Loader/Loader";
-import LockOpenIcon from "@mui/icons-material/LockOpen";
-import LockIcon from "@mui/icons-material/Lock";
-import VpnKeyIcon from "@mui/icons-material/VpnKey";
+import LockOpenIcon from "@material-ui/icons/LockOpen";
+import LockIcon from "@material-ui/icons/Lock";
+import VpnKeyIcon from "@material-ui/icons/VpnKey";
 
 const UpdatePassword = () => {
   const dispatch = useDispatch();

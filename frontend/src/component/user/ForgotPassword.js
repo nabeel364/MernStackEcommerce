@@ -1,6 +1,6 @@
 import React, { Fragment, useState, useEffect } from "react";
 import "./ForgotPassword.css";
-import MailOutlineIcon from "@mui/icons-material/MailOutline";
+import MailOutlineIcon from "@material-ui/icons/MailOutline";
 import { useDispatch, useSelector } from "react-redux";
 import { clearError, forgotPassword } from "../../actions/userAction";
 import { useAlert } from "react-alert";

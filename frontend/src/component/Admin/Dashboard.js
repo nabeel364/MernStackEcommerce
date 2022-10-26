@@ -1,9 +1,10 @@
 import React, { useEffect } from 'react';
 import Sidebar from "./Sidebar.js";
 import "./Dashboard.css";
-import { Typography } from '@mui/material';
+import { Typography } from '@material-ui/core';
 import { Link } from 'react-router-dom';
 import { Doughnut, Line } from "react-chartjs-2";
+// eslint-disable-next-line
 import Chart from 'chart.js/auto';
 import { useDispatch, useSelector } from 'react-redux';
 import { getAdminProducts } from '../../actions/productAction.js';
