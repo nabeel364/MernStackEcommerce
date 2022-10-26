@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@material-ui/data-grid": "^4.0.0-alpha.37",
+    "@material-ui/x-license": "^4.0.0-alpha.37",
     "@material-ui/lab": "^4.0.0-alpha.61",
     "@mui/icons-material": "^5.10.9",
     "@mui/material": "^5.10.11",
