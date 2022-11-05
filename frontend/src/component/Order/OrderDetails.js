@@ -1,4 +1,4 @@
-import { Typography } from "@material-ui/core";
+import { Typography } from "@mui/material";
 import React, { Fragment, useEffect } from "react";
 import { useAlert } from "react-alert";
 import { useDispatch, useSelector } from "react-redux";

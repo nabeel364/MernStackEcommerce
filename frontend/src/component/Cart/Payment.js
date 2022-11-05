@@ -1,11 +1,11 @@
-import { Typography } from "@material-ui/core";
+import { Typography } from "@mui/material";
 import React, { Fragment, useRef } from "react";
 import MetaData from "../layout/MetaData";
 import CheckoutSteps from "./CheckoutSteps";
 import "./Payment.css";
-import CreditCardIcon from "@material-ui/icons/CreditCard";
-import EventIcon from "@material-ui/icons/Event";
-import VpnKeyIcon from "@material-ui/icons/VpnKey";
+import CreditCardIcon from "@mui/icons-material/CreditCard";
+import EventIcon from "@mui/icons-material/Event";
+import VpnKeyIcon from "@mui/icons-material/VpnKey";
 import { useDispatch, useSelector } from "react-redux";
 import { useAlert } from "react-alert";
 import axios from "axios";
