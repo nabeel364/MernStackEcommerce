@@ -1,4 +1,4 @@
-import { Typography } from "@material-ui/core";
+import { Typography } from "@mui/material";
 import React, { Fragment, useEffect, useState } from "react";
 import { useAlert } from "react-alert";
 import { useDispatch, useSelector } from "react-redux";
@@ -12,8 +12,8 @@ import {
 import Loader from "../layout/Loader/Loader";
 import MetaData from "../layout/MetaData";
 import SideBar from "./Sidebar";
-import AccountTreeIcon from "@material-ui/icons/AccountTree";
-import { Button } from "@material-ui/core";
+import AccountTreeIcon from "@mui/icons-material/AccountTree";
+import { Button } from "@mui/material";
 import { UPDATE_ORDER_RESET } from "../../constants/orderConstant";
 
 const ProcessOrder = () => {
