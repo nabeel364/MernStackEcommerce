@@ -12,6 +12,7 @@
 /frontend/build
 
 # misc
+/.vscode
 /.env
 /frontend/.DS_Store
 /frontend/.env.local
