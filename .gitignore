@@ -12,7 +12,7 @@
 /frontend/build
 
 # misc
-/.env
+.env
 /frontend/.DS_Store
 /frontend/.env.local
 /frontend/.env.development.local
