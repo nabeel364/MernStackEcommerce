@@ -1,10 +1,10 @@
 import React, { Fragment, useEffect, useState } from "react";
 import "./ProductReviews.css";
-import { DataGrid } from "@mui/x-data-grid";
-import { Button } from "@mui/material";
-import DeleteIcon from "@mui/icons-material/Delete";
+import { DataGrid } from "@material-ui/data-grid";
+import { Button } from "@material-ui/core";
+import DeleteIcon from "@material-ui/icons/Delete";
 import Sidebar from "./Sidebar";
-import Star from "@mui/icons-material/Star";
+import Star from "@material-ui/icons/Star";
 import { useDispatch, useSelector } from "react-redux";
 import { useAlert } from "react-alert";
 import MetaData from "../layout/MetaData";
