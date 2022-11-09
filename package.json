@@ -2,8 +2,8 @@
   "name": "ecommerce",
   "version": "1.0.0",
   "engines": {
-    "node": "^16.x.x",
-    "npm": "^8.x.x"
+    "node": "<=18.x",
+    "npm": "<=8.x"
   },
   "description": "",
   "main": "backend/server.js",
