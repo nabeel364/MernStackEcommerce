@@ -15,7 +15,7 @@ if(process.env.NODE_ENV !== "PRODUCTION") {
     require('dotenv').config();
 }
 
-const port = process.env.PORT;
+const port = process.env.PORT || 4000;
 
 // Connecting to database
 connectDatabase();
