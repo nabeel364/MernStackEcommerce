@@ -15,7 +15,7 @@ if(process.env.NODE_ENV !== "PRODUCTION") {
 app.use(cors({
     credentials: true,
     allowedHeaders: ['Content-Type', 'Authorization'],
-    origin: ['http://localhost:3000', 'http://localhost:4000']
+    // origin: ['http://localhost:3000', 'http://localhost:4000']
 }));
 app.use(express.json());
 app.use(cookieParser());
