@@ -8,13 +8,11 @@ const errorMiddleware = require("./middleware/error");
 const path = require("path");
 
 // Config
-if (process.env.NODE_ENV !== "PRODUCTION") {
-  require("dotenv").config();
-} else {
-  app.use(express.static(path.join(__dirname, "../frontend/build")));
-  app.get("*", (req, resp) => {
-    resp.sendFile(path.resolve(__dirname, "../frontend/build/index.html"));
-  });
+if (process.env.NODE_ENV === "PRODUCTION") {
+    app.use(express.static(path.join(__dirname, "../frontend/build")));
+    app.get("*", (req, resp) => {
+      resp.sendFile(path.resolve(__dirname, "../frontend/build/index.html"));
+    });
 }
 
 app.use(
