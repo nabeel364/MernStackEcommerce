@@ -16,8 +16,8 @@ import {
   DialogContent,
   DialogTitle,
   Button,
-} from "@mui/material";
-import { Rating } from "@mui/lab";
+} from "@material-ui/core";
+import { Rating } from "@material-ui/lab";
 import { NEW_REVIEW_RESET } from "../../constants/productConstant";
 
 const ProductDetails = () => {

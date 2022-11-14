@@ -3,8 +3,8 @@ import "./Cart.css";
 import CartItemCard from "./CartItemCard.js";
 import { useDispatch, useSelector } from "react-redux";
 import { addItemsToCart, removeItemsFromCart } from "../../actions/cartAction";
-import { Typography } from "@mui/material";
-import RemoveShoppingCartIcon from "@mui/icons-material/RemoveShoppingCart";
+import { Typography } from "@material-ui/core";
+import RemoveShoppingCartIcon from "@material-ui/icons/RemoveShoppingCart";
 import { Link, useNavigate } from "react-router-dom";
 import MetaData from "../layout/MetaData";
 
